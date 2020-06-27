@@ -1,0 +1,32 @@
+.nav{
+    display: block;
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.nav ul{
+    display: block;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    display: block;
+    float: left;
+    width: 14.6%;
+    height: 26px;
+    background-color: black;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+.nav ul li:hover{
+    background-color: darkgrey;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
