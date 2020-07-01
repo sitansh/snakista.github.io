@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 footer{
     text-align: center;
     padding: 10px;
@@ -56,7 +57,45 @@ footer a:hover{
 .active{
     background-color: black;
 }
-@media screen and (max-width:600px){
-    div.nav ul li {float: none;}
+.container .row h2{
+    margin: 2px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+    color: brown;
+}
+.row1{
+    display: flex;
+}
+.sidecol{
+    width: 33.3%;
+}
+.sidecolfinish{
+    width: 33.3%;
+}
+.col1{
+    margin: 20px;
+    width: 33.3%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 4px 30px 4px 30px;
+    width: 90%;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+@media screen and (max-width:600px){
+    div.nav ul li {float: none;}
+    .sidecol{
+        width: 0%;
+    }
+    .sidecolfinish{
+        width: 0%;
+    }
+    .col1{
+        width: 100%;
+    }
+}
