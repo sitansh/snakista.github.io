@@ -24,3 +24,12 @@ h5{
 .mission{
     background-color: #eee;
 }
+.cont{
+    padding: 35px;
+}
+.globsz{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
