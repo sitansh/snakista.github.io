@@ -17,9 +17,12 @@ h4{
     margin-bottom: 30px;
 }
 h5{
-    color: black;
+    color: darkslateblue;
     font-size: 16px;
     margin-bottom: 20px;
+    font-family: serif;
+    font-weight: 200;
+    font-size: 20px;
 }
 .mission{
     background-color: #eee;
@@ -32,4 +35,10 @@ h5{
     height: 200px;
     display: block;
     margin: auto;
+}
+.imgbetween{
+    display: block;
+    margin: auto;
+    width: 300px;;
+    height: 250px;
 }
