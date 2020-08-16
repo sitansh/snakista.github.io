@@ -45,6 +45,51 @@ h5{
 .carousel {
     width: 100%;
 }
+.mycol{
+    display: flex;
+    height: 500px;
+    padding: 35px;
+    transition: 0.3s ease;
+}
+.mycol:hover{
+    display: flex;
+    height: 510px;
+    padding: 30px;
+    transition: 0.3s ease;
+}
+.myrow{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.mydiv{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    min-height: 80vh;
+    background-image: url("texture.jpg");
+    background-blend-mode: lighten;
+}
+.myback{
+    background-image: url("texture.jpg");
+    background-blend-mode: lighten;
+}
+.myjumbo{
+    margin: 0px;
+    border: 2px solid darkgrey;
+    box-shadow: 1px 3px grey;
+}
+.myimg{
+    box-shadow: 1px 2px grey;
+    transition: 0.2s ease;
+}
+.myimg:hover{
+    box-shadow: 3px 5px grey;
+    transition: 0.2s ease;
+}
+.bordered{
+    border: 4px solid darkgrey;
+}
 @media only screen and (max-width: 600px){
     .carousel-inner img{
         width: 100%;
