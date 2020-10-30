@@ -27,6 +27,11 @@ h5{
 .mission{
     background-color: #eee;
 }
+.cnttext{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
 .cont{
     padding: 35px;
 }
